@@ -211,7 +211,8 @@ sudo ufw logging off
 ```
 Os logs do UFW são geralmente encontrados em /var/log/ufw.log.
 
-### Considerações Importantes:
+> [!IMPORTANT]
+> ### Considerações Importantes:
 
 > Ordem das regras: As regras são processadas na ordem em que são adicionadas. Se uma regra "negar" estiver antes de uma regra "permitir" para o mesmo tráfego, a regra "negar" terá precedência.
 > Teste sempre: Após fazer alterações significativas no seu firewall, teste o acesso para garantir que você não se bloqueou ou bloqueou serviços essenciais.
